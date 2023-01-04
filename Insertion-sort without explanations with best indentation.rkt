@@ -1,10 +1,11 @@
-; How to use the sorter:
-; We use parentheses to run programs.
-; But the sorter takes a list as its input.
-; So we run the sorter like this: (insertion-sort (listify 3 2 1 6 5 4 9 8 7))
-; The inside parentheses create a list.
-; And the outside parentheses run the insertion-sort program on the list.
-; If you type that into any Scheme-dialect repl (the same type of instant interpretter that Python uses) it will return a sorted list.
+; How to use the sorter.
+; We start with a Scheme dialect REPL.
+; A REPL is the same type of instant interpretter that Python uses. But we need the one for Scheme dialect.
+; Any of them will work, but I use the Dr.Racket REPL from the PLT team at Northeastern University and Brown University.
+; We copy these definitions into the definitions window and hit run.
+; We are ready to run the sorter in the interactions window.
+; But the sorter wants a list: so we activate it like this (insertion-sort (list 3 2 1 6 5 4 9 8 7)).
+; The inside parentheses create a list and the outside parentheses run the sorter on that list.
 ; You can have much fun testing and tinkering with it.
 
                ; Insert is a program that takes an item and a sorted list. It puts the item into the list where it fits.
